@@ -1,7 +1,7 @@
 package main
 
 import (
-	api "github.com/AntonyIS/go-grpc-crud/client/api"
+	api "go-grpc-crud/client/api"
 	"github.com/gin-gonic/gin"
 )
 

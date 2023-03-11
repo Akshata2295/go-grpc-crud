@@ -6,9 +6,9 @@ import (
 	"log"
 	"net"
 
-	pb "github.com/AntonyIS/go-grpc-crud/proto"
-	svr "github.com/AntonyIS/go-grpc-crud/server/api/grpc"
-	api "github.com/AntonyIS/go-grpc-crud/server/api/rest"
+	pb "go-grpc-crud/proto"
+	svr "go-grpc-crud/server/api/grpc"
+	api "go-grpc-crud/server/api/rest"
 	"github.com/gin-gonic/gin"
 	"google.golang.org/grpc"
 )

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	srv "github.com/AntonyIS/go-grpc-crud/server/api"
-	"github.com/AntonyIS/go-grpc-crud/server/domain"
+	srv "go-grpc-crud/server/api"
+	"go-grpc-crud/server/domain"
 	"github.com/gin-gonic/gin"
 )
 

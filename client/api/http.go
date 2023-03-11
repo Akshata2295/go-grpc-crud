@@ -6,8 +6,8 @@ import (
 	"log"
 	"net/http"
 
-	pb "github.com/AntonyIS/go-grpc-crud/proto"
-	m "github.com/AntonyIS/go-grpc-crud/server/domain"
+	pb "go-grpc-crud/proto"
+	m "go-grpc-crud/server/domain"
 	"github.com/gin-gonic/gin"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

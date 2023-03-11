@@ -3,8 +3,8 @@ package api
 import (
 	"log"
 
-	"github.com/AntonyIS/go-grpc-crud/server/domain"
-	repo "github.com/AntonyIS/go-grpc-crud/server/repository/postgres"
+	"go-grpc-crud/server/domain"
+	repo "go-grpc-crud/server/repository/postgres"
 )
 
 func Service() *domain.MovieService {

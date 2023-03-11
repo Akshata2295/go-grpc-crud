@@ -3,9 +3,9 @@ package grpc
 import (
 	"context"
 
-	pb "github.com/AntonyIS/go-grpc-crud/proto"
-	srv "github.com/AntonyIS/go-grpc-crud/server/api"
-	"github.com/AntonyIS/go-grpc-crud/server/domain"
+	pb "go-grpc-crud/proto"
+	srv "go-grpc-crud/server/api"
+	"go-grpc-crud/server/domain"
 	"google.golang.org/grpc/status"
 )
 
